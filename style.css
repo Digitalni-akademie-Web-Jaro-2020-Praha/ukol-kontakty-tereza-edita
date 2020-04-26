@@ -35,6 +35,29 @@ img {
   width: 80%;
   text-align: center;
   padding: 25px;
-  border-radius: 5%;
+  border-radius: 10px;
   margin-bottom: 20px;
+}
+
+/* TABLETY  */
+
+img {
+  margin: unset;
+  float: left;
+  margin-right: 15px;
+}
+
+.kontejner {
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.box {
+  width: 47%;
+  margin: 10px;
+  text-align: left;
+}
+
+p {
+  outline: 1px solid red;
 }
