@@ -21,6 +21,7 @@ img {
   border-radius: 50%;
   display: block;
   margin: auto;
+  max-width: 117px;
 }
 
 .kontejner {
@@ -51,18 +52,22 @@ h1 {
     margin: unset;
     float: left;
     margin-right: 15px;
+    max-width: 90px;
+    margin-bottom: 10px;
   }
 
   .kontejner {
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: center;
+    align-content: stretch;
   }
 
   .box {
-    width: 47%;
     margin: 10px;
     text-align: left;
-    min-height: 220px;
+    min-height: 210px;
+    width: 45%;
   }
 }
 
@@ -73,11 +78,13 @@ h1 {
     display: block;
     margin: auto;
     float: none;
+    max-width: 128px;
   }
 
   .kontejner {
     flex-direction: row;
     flex-wrap: nowrap;
+    justify-content: center;
   }
 
   h2 {
